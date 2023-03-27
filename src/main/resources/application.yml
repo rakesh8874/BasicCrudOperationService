@@ -1,0 +1,15 @@
+server:
+  port: 9095
+
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/dataForCrudOperation?createDatabaseIfNotExist=true
+    username: root
+    password: Rakesh@2022
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+
